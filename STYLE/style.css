@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap");
+* {
+  font-family: "Noto Serif TC", serif;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+div h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(143, 204, 184);
+  background-color: #619cc4;
+}
+div h1:hover {
+  background-color: red;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+div P {
+  color: #124578;
+}
+
+table, tr, th, td {
+  border: 1px solid;
+  border-spacing: 0;
+}
+
+th {
+  background-color: #fff8d2;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+ol li {
+    color: red;
+} *//*# sourceMappingURL=style.css.map */
