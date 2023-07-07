@@ -3,19 +3,58 @@
   font-family: "Noto Serif TC", serif;
 }
 
-div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
+html,
+body {
+  height: 100%;
 }
+
+div.container {
+  display: flex;
+  justify-content: center;
+  height: 10%;
+}
+
+div.box1 {
+  width: 200px;
+  background-color: rgb(245, 16, 8);
+}
+div.box1 p {
+  background-color: #619cc4;
+}
+div.box1:hover p {
+  background-color: rgb(28, 245, 8);
+}
+div.box1:hover ~ div.box5 {
+  background-color: red;
+}
+
+div.box2 {
+  width: 200px;
+  background-color: rgb(255, 176, 6);
+}
+
+div.box3 {
+  width: 200px;
+  background-color: rgb(231, 231, 3);
+}
+
+div.box4 {
+  width: 200px;
+  background-color: rgb(37, 163, 226);
+}
+
+div.box5 {
+  width: 200px;
+  background-color: rgb(27, 246, 27);
+}
+
 div h1 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: rgb(143, 204, 184);
   background-color: #619cc4;
+  border: 1px dashed;
 }
 div h1:hover {
   background-color: red;
